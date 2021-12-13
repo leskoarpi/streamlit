@@ -1,3 +1,4 @@
-import streamlit
+import streamlit as st
 
-streamlit.write('valami')
+st.write('valami')
+st.slider(label='slider', min_value=0, max_value= 1000, value=50, step=1)
